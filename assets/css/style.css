@@ -1,0 +1,8 @@
+body { padding-top:55px; }
+.page-header .navbar-brand { margin-left:1rem; }
+.sidebar { position:sticky; top:55px; z-index:1000; height:calc(100vh - 55px); border-right:1px solid #ccc; overflow-y:auto; padding-left:0; padding-right:0; }
+
+ul.index-list, ul.index-list ul { list-style-type:none; padding-left:0; }
+ul.index-list li { cursor:pointer; padding:5px 15px; line-height:20px;  }
+ul.index-list li:hover { background-color:#eee; }
+ul.index-list > ul > li { padding-left:30px; }
